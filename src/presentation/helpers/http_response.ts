@@ -1,6 +1,6 @@
 export class HttpResponse {
     constructor(
-        body: object,
-        status: number
+        public body: any,
+        public status: number
     ) { }
 }
