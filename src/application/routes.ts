@@ -1,7 +1,6 @@
-import { ExpressAdapter } from './../infra/adapters/express_adapter';
-import { Request, Response, Router } from "express";
+import { Router } from "express";
 import { createClientComposer } from '../presentation/composers/client/create_client_composer';
-import { CreateClientController } from "../presentation/controllers/client/create_client_controller";
+import { ExpressAdapter } from './../infra/adapters/express_adapter';
 
 export const routes = Router();
 export const expressAdapter = new ExpressAdapter();
